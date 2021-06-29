@@ -1,6 +1,7 @@
 
 import './landingH.css';
 import React from 'react'
+import Arr from './../ArrImg'
 function LandingH() {
   return (
    <>

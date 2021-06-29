@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import Arr from './../ArrImg'
 import './newH.css';
 function NewH() {
   return (

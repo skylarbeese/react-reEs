@@ -6,6 +6,7 @@ import NewH from "./newH"
 import NewR from "./newR"
 import HomeInt from "./homeInt"
 import Banner from "./banner"
+import Arr from './../ArrImg'
 function Home() {
   return (
    <>
