@@ -1,5 +1,6 @@
 import './landingR.css';
 import React from 'react'
+import ArrI from './../ArrI'
 function LandingR() {
   return (
    <>
@@ -12,7 +13,9 @@ function LandingR() {
                 </form>
             </div>
             <div className="grad"></div>
-            <div className="landing-hero-img"></div>
+            <div className="landing-hero-img">
+            <div className="slide-img" style= {{backgroundImage: `url(${ArrI[0]})` }}></div>
+            </div>
         </div>
     </div>
    </>

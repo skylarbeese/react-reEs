@@ -1,5 +1,6 @@
 import './landingHo.css';
 import React from 'react'
+import ArrI from './../ArrI'
 function LandingHo() {
   return (
    <>
@@ -12,7 +13,9 @@ function LandingHo() {
                 </form>
             </div>
             <div className="grad"></div>
-            <div className="landing-hero-img"></div>
+            <div className="landing-hero-img">
+            <div className="slide-img" style= {{backgroundImage: `url(${ArrI[2]})` }}></div>
+            </div>
         </div>
     </div>
    </>

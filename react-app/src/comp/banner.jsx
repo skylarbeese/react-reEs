@@ -1,5 +1,6 @@
 import React from 'react'
 import './banner.css';
+import ArrI from './../ArrI'
 function Banner() {
   return (
    <>
@@ -13,7 +14,9 @@ frankfurter, t-bone pork short loin</p>
                  
              </div>
              <div className="grad"></div>
-             <div className="banner-img"></div>
+             <div className="banner-img">
+             <div className="slide-img" style= {{backgroundImage: `url(${ArrI[3]})` }}></div>
+             </div>
              
          </div>
      </div>

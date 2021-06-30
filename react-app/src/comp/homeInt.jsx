@@ -1,5 +1,6 @@
 import React from 'react'
 import './homeInt.css';
+import ArrI from './../ArrI'
 function HomeInt() {
   return (
    <>
@@ -14,7 +15,9 @@ function HomeInt() {
 frankfurter, t-bone pork short loin</p>
                 </div>
                 </div>
-                <div className="int-img"></div>
+                <div className="int-img">
+                <div className="new-img" style= {{backgroundImage: `url(${ArrI[4]})` }}></div>
+                </div>
             </div>
             <div className="strip"></div>
         </div>

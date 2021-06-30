@@ -19,10 +19,10 @@
 }
 .ban-text h1, h2 {
     margin: 1.3rem;
-    color: white;
+    color: rgb(49, 49, 49);
 }
 .ban-text p {
-    color: white;
+    color: rgb(49, 49, 49);
 }
 .btn {
     margin-top: 3rem;
