@@ -2,16 +2,16 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import Arr from './../ArrImg'
 import './listingsH.css';
-function ListingsH() {
+function ListingsH({Home, search}) {
   return (
    <>
      <div className="listH-con">
        <div className="list-con">
-       {Arr.map((im, index) => {
+       {search.map((im, index) => {
        return (<> <div className="li-img-con">
            <div className="text-li">
              <div className="text-li-con">
-               <h1>home in {im.location.city}, {im.location.state}</h1>
+               <h1>{im.prop} in {im.location.city}, {im.location.state}</h1>
                <h2>{im.price}</h2>
              </div>
            </div>

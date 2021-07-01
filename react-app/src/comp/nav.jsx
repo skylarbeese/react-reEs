@@ -6,7 +6,7 @@ function Nav() {
   const[navFix, setNavFix] = useState(false)
   const {y: pageYOffset } = useWindowScroll()
   React.useEffect(() => {
-    if(pageYOffset > 580) {
+    if(pageYOffset > 570) {
       setNavFix(true)
     
   

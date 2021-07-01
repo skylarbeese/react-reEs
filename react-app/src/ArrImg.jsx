@@ -6,6 +6,7 @@
      price: 20000,
      bed: 2,
      bath: 2,
+     prop: "Home"
     },
      {
         img: "/img/img47.jpg",
@@ -13,6 +14,7 @@
         price: 20000,
         bed: 2,
         bath: 2,
+        prop: "Home"
        },
         {
         img: "/img/img45.jpg",
@@ -20,6 +22,7 @@
         price: 20000,
         bed: 2,
         bath: 2,
+        prop: "Home"
        },
         {
         img: "/img/img39.jpg",
@@ -27,6 +30,7 @@
         price: 20000,
         bed: 2,
         bath: 2,
+        prop: "Home"
        },
         {
         img: "/img/img36.jpg",
@@ -34,6 +38,7 @@
         price: 20000,
         bed: 2,
         bath: 2,
+        prop: "Rental"
        },
         {
         img: "/img/img35.jpg",
@@ -41,6 +46,7 @@
         price: 20000,
         bed: 2,
         bath: 2,
+        prop: "Rental"
        }, 
     ]
 

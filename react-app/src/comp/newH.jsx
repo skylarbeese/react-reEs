@@ -11,7 +11,7 @@ function NewH() {
         <div className="newH">
             <div className="newH-text-box-1">
                 <div className="newH-text">
-                    <h1>Home in {Arr[0].location.city}, {Arr[0].location.state}</h1>
+                    <h1>{Arr[0].prop} in {Arr[0].location.city}, {Arr[0].location.state}</h1>
                     <h2>{Arr[0].price}</h2>
                     <button className="btn-sh">see more</button>
                 </div>

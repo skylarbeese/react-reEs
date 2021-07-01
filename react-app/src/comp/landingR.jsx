@@ -1,7 +1,13 @@
 import './landingR.css';
 import React from 'react'
 import ArrI from './../ArrI'
+import Arr from './../ArrImg'
+import Nav from './nav'
+import ListingsR from "./listingsR"
 function LandingR() {
+    const Rent = Arr.filter(rent => {
+        return rent.prop === 'Rental'
+      })
   return (
    <>
     <div className="landing-con">
@@ -18,6 +24,8 @@ function LandingR() {
             </div>
         </div>
     </div>
+    <Nav />
+    <ListingsR Rent={Rent}/>
    </>
   );
 }

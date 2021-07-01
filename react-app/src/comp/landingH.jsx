@@ -3,9 +3,12 @@
 import React, { useEffect, useState } from 'react'
 import './landingH.css';
 import Arr from './../ArrImg'
+import { BsArrowLeft, BsArrowRight }  from "react-icons/bs";
+
 function LandingH() {
     const[active, setActive] = React.useState(0)
-    const[mouse, setMouse] = React.useState(false)
+
+    const[arrLeft, setArrLeft] = React.useState(false)
     const length = Arr.length
   
 
@@ -29,18 +32,25 @@ function LandingH() {
       return null;
     }
 
-
- 
+  const handleArrowOn = () => {
+    setArrLeft(true)
+  }
+  const handleArrowLe = () => {
+    setArrLeft(false)
+  }
    
   return (
    <>
-    <div className="landing-con-her">
-        
+    <div className="landing-con-her" onMouseEnter={handleArrowOn} onMouseLeave={handleArrowLe}>
+        <div className={`arrows `}>
+        <BsArrowLeft className={arrLeft ? "arrows-show-left" : "arrows-hide-left"} onClick={prevSlide}/>
+        <BsArrowRight className={arrLeft ? "arrows-show-right" : "arrows-hide-right"} onClick={nextSlide}/>
+        </div>
       {Arr.map((im, index) =>   {
           return (<><div className="landi" key={index}>
           {index === active && <><div className="landing-text">
            <div className="text-la">
-            <h1>Home in {im.location.city}, {im.location.state}</h1>
+            <h1>{im.prop} in {im.location.city}, {im.location.state}</h1>
                     <h2>{im.price}</h2>
                 <button className="btn-sh">see more</button>
       </div>
