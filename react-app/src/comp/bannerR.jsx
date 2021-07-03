@@ -1,8 +1,6 @@
-import React from 'react'
 import './banner.css';
 import ArrI from './../ArrI'
-import {Link} from 'react-router-dom'
-function Banner() {
+function BannerR() {
   return (
    <>
      <div className="ban-con">
@@ -11,12 +9,12 @@ function Banner() {
                  <h1>"Our agents are ready to help"</h1>
                  <p>Bacon ipsum dolor amet pastrami salami 
 frankfurter, t-bone pork short loin</p>
-<Link to="/comp/contact"></Link><button className="btn-sh btn">contact us</button><Link />
+
                  
              </div>
              <div className="grad"></div>
              <div className="banner-img">
-             <div className="slide-img" style= {{backgroundImage: `url(${ArrI[3]})` }}></div>
+             <div className="slide-img" style= {{backgroundImage: `url(${ArrI[7]})` }}></div>
              </div>
              
          </div>
@@ -25,4 +23,4 @@ frankfurter, t-bone pork short loin</p>
   );
 }
 
-export default Banner;
+export default BannerR;

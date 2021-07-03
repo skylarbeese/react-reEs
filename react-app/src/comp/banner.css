@@ -34,3 +34,23 @@
     z-index: 1;
     
 }
+
+@media screen and (min-width: 0px) and (max-width:600px) {
+    .ban-text {
+        width: 100%;
+        height: 100%;
+   
+    }
+    .ban-text h1, h2 {
+        font-size: 1rem;
+        margin: 1rem;
+        color: rgb(49, 49, 49);
+    }
+    .ban-text p {
+        font-size: .7rem;
+        color: rgb(49, 49, 49);
+    }
+    .btn {
+        margin-top: 3rem;
+    }
+}

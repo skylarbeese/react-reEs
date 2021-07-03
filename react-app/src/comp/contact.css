@@ -1,0 +1,34 @@
+.contact-con {
+    width: 100%;
+   
+}
+.img-contact-con {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+}
+.title-con {
+  width: 90%;
+  margin: 2rem;
+}
+.img-contact {
+  width: 35%;
+  height: 40vh;
+  background-color: rgb(158, 110, 38);
+}
+.form-contact {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+} 
+.form-contact form input, textarea {
+    width: 100%;
+    margin: 1rem;
+    background-color: rgb(192, 192, 192);
+    border: none;
+
+}

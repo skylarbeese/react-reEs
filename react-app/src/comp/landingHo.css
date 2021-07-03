@@ -47,8 +47,8 @@ form{
 .Sear {
     width: 100vw;
     padding-left: 2rem;
-    padding-top: 4rem;
-    font-size: 2rem;
+    padding-top: 2rem;
+    font-size: 1.4rem;
 }
 
 .box-non h1 {
@@ -63,4 +63,14 @@ form{
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+@media screen and (min-width: 0px) and (max-width:800px) {
+    form{
+        width: 90%;
+    }
+}
+@media screen and (min-width: 0px) and (max-width:700px) {
+    form{
+        width: 90%;
+    }
 }

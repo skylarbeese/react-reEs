@@ -19,7 +19,7 @@ frankfurter, t-bone pork short loin</p>
                 <div className="new-img" style= {{backgroundImage: `url(${ArrI[4]})` }}></div>
                 </div>
             </div>
-            <div className="strip"></div>
+            <div className="strip bo"></div>
         </div>
     </div>
    </>

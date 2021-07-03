@@ -3,12 +3,12 @@ import {Link} from 'react-router-dom'
 import Arr from './../ArrImg'
 import './listingsH.css';
 
-function ListingsR({Rent}) {
+function ListingsR({Rent, search}) {
   return (
    <>
      <div className="listH-con">
        <div className="list-con">
-       {Rent.map((im, index) => {
+       {search.map((im, index) => {
        return (<> <div className="li-img-con">
            <div className="text-li">
              <div className="text-li-con">

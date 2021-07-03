@@ -26,7 +26,7 @@ function LandingH() {
        setActive(active === 0 ? length - 1 : active - 1)
     }
     const prevSlide = () => {
-      setActive(active ===  length - 1 ? 0 :  active + 1)
+      setActive(active === length - 1 ? 0 : active + 1)
     }
     if(!Array.isArray(Arr) || Arr.length <= 0) {
       return null;
