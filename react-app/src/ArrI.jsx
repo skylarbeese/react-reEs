@@ -7,6 +7,7 @@ const ArrI = [
     "/img/img39.jpg",
     "/img/img36.jpg",
     "/img/img33.jpg",
+    "/img/logo.png",
 ]
     
 

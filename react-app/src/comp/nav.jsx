@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import {Link} from 'react-router-dom'
 import './nav.css';
 import {useWindowScroll} from 'react-use'
+import ArrI from './../ArrI'
 function Nav() {
   const[navFix, setNavFix] = useState(false)
   const[mobile, setMobile] = useState(false)
@@ -45,7 +46,7 @@ console.log(window.innerWidth)
      <div className="nav-con">
      {mobile ?  (<> <div className={`nav ${navFix ? "nav-fixed": ""}`}>
             <div className="logo-nav">
-                <h1><Link to="/">Logo</Link></h1>
+               <Link to="/"><div className="logo-img" style= {{backgroundImage: `url(${ArrI[8]})` }}></div></Link>
             </div>
             <div className="nav-link">
                 <ul>
@@ -66,7 +67,7 @@ console.log(window.innerWidth)
           <div className={`nav-mob `}>
             
             <div className="logo-nav">
-                <h1><Link to="/">Logo</Link></h1>
+            <Link to="/"><div className="logo-img" style= {{backgroundImage: `url(${ArrI[8]})` }}></div></Link>
             </div>
             <div className="burger-con" onClick={navHandler}>
               <span></span>
