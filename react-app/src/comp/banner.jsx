@@ -9,8 +9,9 @@ function Banner() {
          <div className="banner-con">
              <div className="ban-text">
                  <h1>"Our agents are ready to help"</h1>
-                 <p>Bacon ipsum dolor amet pastrami salami 
-frankfurter, t-bone pork short loin</p>
+                 <p>Contact on of our agents by sending a message in our
+contact form to get started looking for your dream property
+</p>
 <Link to="/comp/contact"></Link><button className="btn-sh btn">contact us</button><Link />
                  
              </div>

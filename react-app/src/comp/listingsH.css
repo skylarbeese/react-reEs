@@ -43,10 +43,10 @@
   z-index: 3;
   
 }
-.text-li-con h1, h2 {
+.text-li-con a h1, h2 {
    color: rgb(49, 49, 49);
 }
-.text-li-con h1 {
+.text-li-con a h1 {
   font-size: 1.4rem;
 }
 .text-li-con h2 {
